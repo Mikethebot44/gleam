@@ -1,0 +1,26 @@
+name: gleam-unet
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - jupyterlab
+  - notebook
+  - ipykernel
+  - astropy
+  - pytorch
+  - torchvision
+  - torchaudio
+  - cpuonly
+  - pip:
+      - segmentation-models-pytorch
+      - AegeanTools
+      - tqdm
+      - scikit-image
+      - scikit-learn
+      - pyyaml
